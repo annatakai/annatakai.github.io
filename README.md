@@ -9,7 +9,7 @@ Relevant Links:
 
 [For Every Child an Education](https://foreverychildaneducation.org/) 
 
-[Foundess](foundess.com)
+[Foundess](https://www.foundess.com/)
 
 [Other fun stuff](http://annatakai.com/)
 

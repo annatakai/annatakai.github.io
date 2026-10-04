@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const hero = document.querySelector(".hero");
   const video = document.getElementById("hero-video");
   const muteBtn = document.getElementById("mute-toggle");
+  const header = document.querySelector(".site-header");
   if (!hero || !video || !muteBtn) return;
 
   muteBtn.addEventListener("click", () => {
@@ -19,8 +20,14 @@ document.addEventListener("DOMContentLoaded", () => {
     } else if (!video.paused) {
       video.pause();
     }
+
+    if (header) {
+      const overVideo = rect.top <= header.offsetHeight && rect.bottom > 0 && video.readyState >= 2;
+      header.classList.toggle("over-video", overVideo);
+    }
   }
 
+  video.addEventListener("loadeddata", updatePlayback);
   window.addEventListener("scroll", updatePlayback, { passive: true });
   window.addEventListener("resize", updatePlayback);
   updatePlayback();

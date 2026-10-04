@@ -538,19 +538,6 @@ body.home .intro {
   margin: 0 0 18px 0;
 }
 
-.statement-heading {
-  font-size: 2rem;
-  font-style: italic;
-  font-weight: 600;
-  margin: 0 0 18px 0;
-}
-
-.statement-text {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  margin: 0;
-}
-
 @media (max-width: 720px) {
   header.site-header {
     flex-direction: column;

@@ -466,6 +466,57 @@ body.home .intro {
   filter: brightness(0.7);
 }
 
+/* ---------- projects page ---------- */
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 48px 40px;
+  padding-bottom: 40px;
+}
+
+.project-grid .project-image {
+  aspect-ratio: 4 / 3;
+  background: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 24px;
+}
+
+.project-grid .project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.project-grid .project-image.placeholder {
+  border: 1px dashed var(--line);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.project-grid .project-caption {
+  margin-top: 16px;
+  font-size: 1.05rem;
+}
+
+.project-grid .project-caption strong {
+  font-weight: 600;
+}
+
+.project-grid .project-caption .sep {
+  color: var(--muted);
+  margin: 0 6px;
+}
+
+@media (max-width: 720px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* ---------- simple content page (startups / motion) ---------- */
 
 .section-block {

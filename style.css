@@ -203,10 +203,31 @@ main.narrow {
   max-width: 900px;
 }
 
+body.home main.narrow {
+  max-width: 1080px;
+}
+
 .intro {
   max-width: 1100px;
   padding: 0 48px;
   text-align: left;
+  display: flex;
+  align-items: flex-start;
+  gap: 48px;
+}
+
+.intro-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.intro-photo {
+  width: 280px;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: 50% 25%;
+  flex-shrink: 0;
+  border-radius: 4px;
 }
 
 .intro p {
@@ -487,6 +508,15 @@ main.narrow {
   .video-grid {
     grid-template-columns: 1fr;
   }
-  .intro { padding: 0 24px; }
+  .intro {
+    padding: 0 24px;
+    flex-direction: column;
+    gap: 24px;
+  }
   .intro p { font-size: 1.1rem; }
+  .intro-photo {
+    width: 100%;
+    max-width: 320px;
+    aspect-ratio: 4 / 3;
+  }
 }

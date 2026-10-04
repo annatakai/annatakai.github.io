@@ -30,7 +30,17 @@
   <video id="hero-video" autoplay muted loop playsinline>
     <source src="videos/for-every-child-promo.mp4" type="video/mp4">
   </video>
-  <button id="mute-toggle" class="mute-toggle" aria-label="toggle video audio">unmute</button>
+  <button id="mute-toggle" class="mute-toggle is-muted" aria-label="unmute video" aria-pressed="false">
+    <svg class="icon-muted" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M3 9.5v5h3.6L12 19V5L6.6 9.5H3z" fill="currentColor"/>
+      <path d="M16 9l5 6M21 9l-5 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+    </svg>
+    <svg class="icon-unmuted" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M3 9.5v5h3.6L12 19V5L6.6 9.5H3z" fill="currentColor"/>
+      <path d="M15.2 8.5a5 5 0 0 1 0 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M17.8 6a9 9 0 0 1 0 12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+    </svg>
+  </button>
 </section>
 
 <div class="photo-fade-wrapper">
@@ -47,8 +57,19 @@
   <div class="intro-wrapper">
     <div class="intro-sticky">
       <section class="intro">
-        <p>hi! i'm anna and i'm a creator and problem solver, who loves people: innovating for people, and building with people.</p>
-        <p>i'm the founder of for every child an education, the coo at foundess, and a student at wellesley studying econ/cs.</p>
+        <p>hi, i'm anna! i'm studying computer science and philosophy at wellesley college, curious about how technology can improve people's lives while preserving what makes us human.</p>
+        <p>i care deeply about education, human-centered ai, and accessibility, and hope to build technology that preserves human connection and empowers.</p>
+        <div class="intro-roles">
+          <div class="list-item">
+            <span><strong>research @ mit media lab</strong><br>human-centered ai &amp; creative coding</span>
+          </div>
+          <div class="list-item">
+            <span><strong>coo @ foundess</strong><br>building a global community for 30k+ founders</span>
+          </div>
+          <div class="list-item">
+            <span><strong>founder @ for every child an education</strong><br>expanding access to quality education in 4 countries</span>
+          </div>
+        </div>
       </section>
     </div>
   </div>

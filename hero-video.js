@@ -6,7 +6,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   muteBtn.addEventListener("click", () => {
     video.muted = !video.muted;
-    muteBtn.textContent = video.muted ? "unmute" : "mute";
+    muteBtn.classList.toggle("is-muted", video.muted);
+    muteBtn.setAttribute("aria-pressed", String(!video.muted));
+    muteBtn.setAttribute("aria-label", video.muted ? "unmute video" : "mute video");
   });
 
   function updatePlayback() {

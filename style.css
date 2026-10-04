@@ -429,6 +429,15 @@ body.home .intro {
   margin: 20px 0 48px 0;
 }
 
+.page-heading {
+  text-align: center;
+  color: var(--ink);
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-style: italic;
+  margin: 0 0 20px 0;
+}
+
 .video-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

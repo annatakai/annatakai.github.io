@@ -499,16 +499,27 @@ body.home .intro {
 
 .project-grid .project-caption {
   margin-top: 16px;
+}
+
+.project-grid .project-caption .caption-title {
   font-size: 1.05rem;
 }
 
-.project-grid .project-caption strong {
+.project-grid .project-caption .caption-title strong {
   font-weight: 600;
 }
 
 .project-grid .project-caption .sep {
   color: var(--muted);
   margin: 0 6px;
+}
+
+.project-grid .project-caption .caption-desc {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 1.5;
 }
 
 @media (max-width: 720px) {

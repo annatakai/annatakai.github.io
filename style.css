@@ -426,9 +426,7 @@ body.home .intro {
 }
 
 .project-title-row {
-  display: flex;
-  align-items: baseline;
-  gap: 20px;
+  position: relative;
   margin: 0 0 28px 0;
 }
 
@@ -441,6 +439,11 @@ body.home .intro {
 }
 
 .project-back {
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-right: 40px;
   font-size: 0.95rem;
   color: var(--muted);
   text-decoration: none;
@@ -456,7 +459,7 @@ body.home .intro {
 .project-description {
   text-align: left;
   color: var(--ink);
-  font-size: 1.2rem;
+  font-size: 1.05rem;
   font-weight: 400;
   line-height: 1.7;
   margin: 0;

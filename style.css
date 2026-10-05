@@ -441,6 +441,18 @@ body.home .intro {
   margin: 0;
 }
 
+.project-link {
+  margin: 20px 0 0 0;
+  font-size: 1.05rem;
+}
+
+.project-video {
+  display: block;
+  width: 100%;
+  margin-top: 40px;
+  border-radius: 4px;
+}
+
 /* ---------- motion page ---------- */
 
 .motion-intro {

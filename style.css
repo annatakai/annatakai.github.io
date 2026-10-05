@@ -419,6 +419,28 @@ body.home .intro {
   100% { transform: scale(1); }
 }
 
+/* ---------- project detail pages ---------- */
+
+.project-detail {
+  max-width: 900px;
+}
+
+.project-title {
+  text-align: left;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0 0 28px 0;
+}
+
+.project-description {
+  text-align: left;
+  color: var(--ink);
+  font-size: 1.2rem;
+  line-height: 1.7;
+  margin: 0;
+}
+
 /* ---------- motion page ---------- */
 
 .motion-intro {

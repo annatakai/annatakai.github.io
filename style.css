@@ -427,9 +427,9 @@ body.home .intro {
 
 .project-title-row {
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
   margin: 0 0 28px 0;
 }
 

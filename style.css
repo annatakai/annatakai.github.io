@@ -612,6 +612,10 @@ body.home .intro {
   gap: 48px;
 }
 
+.section-block-flex.align-top {
+  align-items: flex-start;
+}
+
 .section-block-text {
   flex: 1;
   min-width: 0;
@@ -642,7 +646,7 @@ body.home .intro {
 .ig-scroll {
   display: flex;
   gap: 24px;
-  margin-top: 32px;
+  margin-top: 16px;
   overflow-x: auto;
   padding-bottom: 16px;
 }
@@ -656,6 +660,11 @@ body.home .intro {
   margin: 0 !important;
   min-width: 0 !important;
   width: 100% !important;
+}
+
+.section-block-photos .ig-embed {
+  width: 320px;
+  margin-top: 4px;
 }
 
 @media (max-width: 720px) {

@@ -639,6 +639,25 @@ body.home .intro {
   text-align: center;
 }
 
+.ig-scroll {
+  display: flex;
+  gap: 24px;
+  margin-top: 32px;
+  overflow-x: auto;
+  padding-bottom: 16px;
+}
+
+.ig-embed {
+  flex-shrink: 0;
+  width: 340px;
+}
+
+.ig-embed .instagram-media {
+  margin: 0 !important;
+  min-width: 0 !important;
+  width: 100% !important;
+}
+
 @media (max-width: 720px) {
   .section-block-flex {
     flex-direction: column;

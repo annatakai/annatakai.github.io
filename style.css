@@ -600,6 +600,34 @@ body.home .intro {
   margin: 0 0 18px 0;
 }
 
+.section-block-flex {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.section-block-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.section-block-photo {
+  width: 320px;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+
+@media (max-width: 720px) {
+  .section-block-flex {
+    flex-direction: column;
+  }
+  .section-block-photo {
+    width: 100%;
+  }
+}
+
 @media (max-width: 720px) {
   header.site-header {
     flex-direction: column;

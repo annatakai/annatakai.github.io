@@ -625,6 +625,20 @@ body.home .intro {
   border-radius: 4px;
 }
 
+.section-block-photos {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.section-block-caption {
+  margin: 4px 0 0 0;
+  font-size: 0.85rem;
+  color: var(--muted);
+  text-align: center;
+}
+
 @media (max-width: 720px) {
   .section-block-flex {
     flex-direction: column;

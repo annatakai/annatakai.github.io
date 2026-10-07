@@ -261,6 +261,10 @@ body.home .intro {
   align-items: flex-start;
 }
 
+.list-item-spaced {
+  margin-top: 8px;
+}
+
 .list-item strong {
   display: inline-block;
   margin-bottom: 4px;

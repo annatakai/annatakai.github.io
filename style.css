@@ -509,6 +509,13 @@ body.home .intro {
   border-radius: 4px;
 }
 
+.project-shot {
+  display: block;
+  width: 100%;
+  margin-top: 40px;
+  border-radius: 4px;
+}
+
 /* ---------- motion page ---------- */
 
 .motion-intro {
